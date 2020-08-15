@@ -1,0 +1,90 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: August 15, 2020 12:19 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.36
+WORDPRESS:	5.4.2
+PHP INFO:	7.2.32 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (160M default) 
+MEMORY STACK: 8MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported
+TABLES: total:13 | filtered:0 | create:13
+FILTERED: []
+SQL CREATED: 20200815_daafd8b1d988d987d8b7d8b1d8a7d8_03d8f6442782f8685791_20200815121940_database.sql
+SQL FILE SIZE: 457.46KB (468443)
+SQL FILE TIME: 2020-08-15 12:19:56
+SQL RUNTIME: 0.04 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home/gsmteams/domains/avin-tarh.ir/public_html
+ARCHIVE FILE: 20200815_daafd8b1d988d987d8b7d8b1d8a7d8_03d8f6442782f8685791_20200815121940_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	0B
+STATS:	Dirs 0 | Files 0
+SQL ADDED: 20200815_daafd8b1d988d987d8b7d8b1d8a7d8_03d8f6442782f8685791_20200815121940_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1
+    [filename] => /home/gsmteams/domains/avin-tarh.ir/public_html/wp-content/backups-dup-lite/tmp/20200815_daafd8b1d988d987d8b7d8b1d8a7d8_03d8f6442782f8685791_20200815121940_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 0
+[PHP ERR][NOTICE] MSG:ob_flush(): failed to flush buffer. No buffer to flush [CODE:8|FILE:/home/gsmteams/domains/avin-tarh.ir/public_html/wp-content/plugins/duplicator/classes/utilities/class.u.php|LINE:171]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Archive->build, DUP_Zip::create, DUP_Util::fcgiFlush, ob_flush, DUP_Handler::error, DUP_Handler::getMessage
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 72.66KB
+ARCHIVE RUNTIME: 0.03 sec.
+MEMORY STACK: 8MB
+building installer
+[PHP ERR][WARN] MSG:is_readable(): open_basedir restriction in effect. File(/dev/urandom) is not within the allowed path(s): (/home/gsmteams/domains/avin-tarh.ir/:/tmp/:/usr/local/php-7.2/lib/php/) [CODE:2|FILE:/home/gsmteams/domains/avin-tarh.ir/public_html/wp-content/plugins/duplicator/classes/class.password.php|LINE:63]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Installer->build, DUP_Installer->create_enhanced_installer_files, DUP_Installer->create_archive_config_file, DUP_PasswordHash->HashPassword, DUP_PasswordHash->get_random_bytes, is_readable, DUP_Handler::error, DUP_Handler::getMessage
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip /home/gsmteams/domains/avin-tarh.ir/public_html/wp-content/backups-dup-lite/tmp/20200815_daafd8b1d988d987d8b7d8b1d8a7d8_03d8f6442782f8685791_20200815121940_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 457.46KB
+INSTALLER FILE: 61.33KB
+ARCHIVE FILE: 1.53MB 
+EXPECTED FILE/DIRECTORY COUNT: 0
+ACTUAL FILE/DIRECTORY COUNT: 0
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 0.36 sec.
+PEAK PHP MEMORY USED: 8MB
+DONE PROCESSING => 20200815_daafd8b1d988d987d8b7d8b1d8a7d8 August 15, 2020 12:19 pm
+

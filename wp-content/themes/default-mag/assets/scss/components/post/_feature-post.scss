@@ -1,0 +1,36 @@
+.#{$prefix}-feature-post{
+    padding-bottom: 15px;
+    &:last-child{
+        padding-bottom: 0;
+    }
+    .#{$prefix}-image-section{
+        position: relative;
+        overflow: hidden;
+        .data-bg{
+            @include transition(transform,0.3s,linear);
+            @include backface();
+            &:hover{
+                transform: scale(1.1,1.1);
+            }
+        }
+    }
+    ul{
+        &.cat-links{
+            li{
+                padding: 0;
+                border: 0;
+            }
+        }
+    }
+    h3{
+        margin-top: 10px;
+        margin-bottom: 0;
+        a{
+            @include line-limit(3);
+        }
+    }
+    p{
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}

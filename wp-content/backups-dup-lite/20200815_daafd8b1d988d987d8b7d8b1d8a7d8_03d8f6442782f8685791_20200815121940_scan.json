@@ -1,0 +1,258 @@
+{
+    "RPT": {
+        "ScanTime": "0.01 sec.",
+        "ScanFile": "20200815_daafd8b1d988d987d8b7d8b1d8a7d8_03d8f6442782f8685791_20200815121940_scan.json",
+        "Warnings": 1,
+        "Success": 5
+    },
+    "SRV": {
+        "PHP": {
+            "websrv": true,
+            "openbase": false,
+            "maxtime": true,
+            "mysqli": true,
+            "version": true,
+            "ALL": "Warn"
+        },
+        "WP": {
+            "version": true,
+            "core": true,
+            "ismu": false,
+            "ALL": "Good"
+        }
+    },
+    "ARC": {
+        "Size": "0B",
+        "DirCount": "0",
+        "FileCount": "0",
+        "FullCount": "0",
+        "WarnFileCount": 0,
+        "WarnDirCount": 0,
+        "UnreadableDirCount": 0,
+        "UnreadableFileCount": 0,
+        "FilterDirsAll": [
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/.opcache",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/ai1wm-backups",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/backups-dup-lite",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/backups-dup-pro",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/backupwordpress",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/bps-backup",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/cache",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/content\/cache",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/contents\/cache",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/infinitewp\/backups",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/managewp\/backups",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/old-cache",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/plugins\/all-in-one-wp-migration\/storage",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/updraft",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/aiowps_backups",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/backupbuddy_backups",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/backupbuddy_temp",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/ithemes-security\/backups",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/mainwp\/backup",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/pb_backupbuddy",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/snapshots",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/sucuri",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/wp-clone",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/wp_all_backup",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/wpbackitup_backups",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/wfcache",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/wishlist-backup",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-snapshots"
+        ],
+        "FilterFilesAll": [
+            "error_log",
+            "error.log",
+            "debug_log",
+            "ws_ftp.log",
+            "dbcache",
+            "pgcache",
+            "objectcache",
+            ".DS_Store",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/.htaccess",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/web.config",
+            "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-config.php"
+        ],
+        "FilterExtsAll": [],
+        "FilterInfo": {
+            "Dirs": {
+                "Warning": [],
+                "Unreadable": [],
+                "Core": [
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-snapshots",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/backups-dup-lite",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/.opcache",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/backups-dup-pro",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/ai1wm-backups",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/backupwordpress",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/content\/cache",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/contents\/cache",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/infinitewp\/backups",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/managewp\/backups",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/old-cache",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/plugins\/all-in-one-wp-migration\/storage",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/updraft",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/wishlist-backup",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/wfcache",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/bps-backup",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/cache",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/aiowps_backups",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/backupbuddy_temp",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/backupbuddy_backups",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/ithemes-security\/backups",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/mainwp\/backup",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/pb_backupbuddy",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/snapshots",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/sucuri",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/wp-clone",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/wp_all_backup",
+                    "\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html\/wp-content\/uploads\/wpbackitup_backups"
+                ],
+                "Global": [],
+                "Instance": []
+            },
+            "Files": {
+                "Size": [],
+                "Warning": [],
+                "Unreadable": [],
+                "Core": [],
+                "Global": [
+                    "error_log",
+                    "error.log",
+                    "debug_log",
+                    "ws_ftp.log",
+                    "dbcache",
+                    "pgcache",
+                    "objectcache",
+                    ".DS_Store"
+                ],
+                "Instance": []
+            },
+            "Exts": {
+                "Core": [],
+                "Global": [],
+                "Instance": []
+            },
+            "UDirCount": 0,
+            "UFileCount": 0,
+            "UExtCount": 0,
+            "TreeSize": [],
+            "TreeWarning": []
+        },
+        "RecursiveLinks": [],
+        "UnreadableItems": [],
+        "Status": {
+            "Size": "Good",
+            "Names": "Good",
+            "UnreadableItems": "Good",
+            "MigratePackage": "Good",
+            "CanbeMigratePackage": true,
+            "showCreateProcStatus": "Good",
+            "showCreateProc": true,
+            "AddonSites": "Good"
+        },
+        "Dirs": [],
+        "Files": []
+    },
+    "DB": {
+        "Status": {
+            "Success": true,
+            "DB_Case": "Good",
+            "DB_Rows": "Good",
+            "DB_Size": "Good",
+            "TBL_Case": "Good",
+            "TBL_Rows": "Good",
+            "TBL_Size": "Good"
+        },
+        "Size": "519.17KB",
+        "Rows": "587",
+        "TableCount": 13,
+        "TableList": {
+            "avn_commentmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": 4096
+            },
+            "avn_comments": {
+                "Case": 0,
+                "Rows": "7",
+                "Size": "10.01KB",
+                "USize": 10248
+            },
+            "avn_duplicator_packages": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "avn_links": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "avn_options": {
+                "Case": 0,
+                "Rows": "171",
+                "Size": "307.21KB",
+                "USize": 314588
+            },
+            "avn_postmeta": {
+                "Case": 0,
+                "Rows": "210",
+                "Size": "54.59KB",
+                "USize": 55904
+            },
+            "avn_posts": {
+                "Case": 0,
+                "Rows": "87",
+                "Size": "92.15KB",
+                "USize": 94364
+            },
+            "avn_term_relationships": {
+                "Case": 0,
+                "Rows": "16",
+                "Size": "3.33KB",
+                "USize": 3408
+            },
+            "avn_term_taxonomy": {
+                "Case": 0,
+                "Rows": "10",
+                "Size": "4.38KB",
+                "USize": 4480
+            },
+            "avn_termmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": 4096
+            },
+            "avn_terms": {
+                "Case": 0,
+                "Rows": "10",
+                "Size": "14KB",
+                "USize": 14336
+            },
+            "avn_usermeta": {
+                "Case": 0,
+                "Rows": "72",
+                "Size": "14.85KB",
+                "USize": 15208
+            },
+            "avn_users": {
+                "Case": 0,
+                "Rows": "4",
+                "Size": "8.65KB",
+                "USize": 8856
+            }
+        },
+        "RawSize": 531632
+    },
+    "LL": {
+        "TotalSize": "519.17KB",
+        "Status": {
+            "TotalSize": "Good"
+        }
+    }
+}

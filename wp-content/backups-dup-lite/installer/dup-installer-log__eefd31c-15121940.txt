@@ -1,0 +1,425 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 12:26:41
+* VERSION: 1.3.36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.32                                |7.2.18
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2020-08-15 12:19:40
+WP VERSION__________: 5.4.2
+DUP VERSION_________: 1.3.36
+DB__________________: 10.3.23
+DB TABLES___________: 13
+DB ROWS_____________: 588
+DB FILE SIZE________: 526.6KB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.18 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.39 (Win64) PHP/7.2.18
+DOC ROOT____________: "C:/wamp64/www/avin"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/avin/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "manual"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/wamp64/www/avin/20200815_daafd8b1d988d987d8b7d8b1d8a7d8_[HASH]_20200815121940_archive.zip"
+SIZE________________: 1.53MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+** PACKAGE EXTRACTION IS IN MANUAL MODE ** 
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 12:26:41 - RUNTIME: 0.0083 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'superuser'@'localhost' (using password: YES) [CODE:2|FILE:C:\wamp64\www\avin\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'superuser'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 12:28:26
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.26 -- Build Server: 10.3.23
+FILE SIZE:	dup-database__[HASH].sql (457.46KB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+NEW SQL FILE:	[C:/wamp64/www/avin/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.26] is less than the build version [10.3.23].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:C:\wamp64\www\avin\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:392]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	604
+
+avn_commentmeta: (0)
+avn_comments: (7)
+avn_duplicator_packages: (0)
+avn_links: (0)
+avn_options: (144)
+avn_postmeta: (210)
+avn_posts: (87)
+avn_term_relationships: (16)
+avn_term_taxonomy: (10)
+avn_termmeta: (0)
+avn_terms: (10)
+avn_usermeta: (72)
+avn_users: (4)
+Removed '28' cache/transient rows
+
+INSERT DATA RUNTIME: 0.5456 sec.
+STEP-2 COMPLETE @ 12:28:26 - RUNTIME: 0.5648 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+htaccess ark file don' exists
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 12:28:29
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "گروه طراحی آوین"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/gsmteams/domains/avin-tarh.ir/public_html"
+path_new______________: "C:/wamp64/www/avin"
+siteurl_______________: "http://localhost/avin"
+url_old_______________: "https://avin-tarh.ir"
+url_new_______________: "http://localhost/avin"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "avn_commentmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avn_comments"____________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/gsmteams/domains/avin-tarh.ir/public_html" => "C:/wamp64/www/avin"
+	SEARCH  2:"\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  3:"%2Fhome%2Fgsmteams%2Fdomains%2Favin-tarh.ir%2Fpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  4:"\home\gsmteams\domains\avin-tarh.ir\public_html" => "C:/wamp64/www/avin"
+	SEARCH  5:"\\home\\gsmteams\\domains\\avin-tarh.ir\\public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  6:"%5Chome%5Cgsmteams%5Cdomains%5Cavin-tarh.ir%5Cpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  7:"//avin-tarh.ir" ==================================> "//localhost/avin"
+	SEARCH  8:"\/\/avin-tarh.ir" ================================> "\/\/localhost\/avin"
+	SEARCH  9:"%2F%2Favin-tarh.ir" ==============================> "%2F%2Flocalhost%2Favin"
+	SEARCH 10:"//www.avin-tarh.ir" ==============================> "//localhost/avin"
+	SEARCH 11:"\/\/www.avin-tarh.ir" ============================> "\/\/localhost\/avin"
+	SEARCH 12:"%2F%2Fwww.avin-tarh.ir" ==========================> "%2F%2Flocalhost%2Favin"
+	SEARCH 13:"https://localhost/avin" ==========================> "http://localhost/avin"
+	SEARCH 14:"https:\/\/localhost\/avin" =======================> "http:\/\/localhost\/avin"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Favin" ==================> "http%3A%2F%2Flocalhost%2Favin"
+
+EVALUATE TABLE: "avn_duplicator_packages"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avn_links"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avn_options"_____________________________________[ROWS:   144][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/gsmteams/domains/avin-tarh.ir/public_html" => "C:/wamp64/www/avin"
+	SEARCH  2:"\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  3:"%2Fhome%2Fgsmteams%2Fdomains%2Favin-tarh.ir%2Fpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  4:"\home\gsmteams\domains\avin-tarh.ir\public_html" => "C:/wamp64/www/avin"
+	SEARCH  5:"\\home\\gsmteams\\domains\\avin-tarh.ir\\public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  6:"%5Chome%5Cgsmteams%5Cdomains%5Cavin-tarh.ir%5Cpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  7:"//avin-tarh.ir" ==================================> "//localhost/avin"
+	SEARCH  8:"\/\/avin-tarh.ir" ================================> "\/\/localhost\/avin"
+	SEARCH  9:"%2F%2Favin-tarh.ir" ==============================> "%2F%2Flocalhost%2Favin"
+	SEARCH 10:"//www.avin-tarh.ir" ==============================> "//localhost/avin"
+	SEARCH 11:"\/\/www.avin-tarh.ir" ============================> "\/\/localhost\/avin"
+	SEARCH 12:"%2F%2Fwww.avin-tarh.ir" ==========================> "%2F%2Flocalhost%2Favin"
+	SEARCH 13:"https://localhost/avin" ==========================> "http://localhost/avin"
+	SEARCH 14:"https:\/\/localhost\/avin" =======================> "http:\/\/localhost\/avin"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Favin" ==================> "http%3A%2F%2Flocalhost%2Favin"
+
+EVALUATE TABLE: "avn_postmeta"____________________________________[ROWS:   210][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/gsmteams/domains/avin-tarh.ir/public_html" => "C:/wamp64/www/avin"
+	SEARCH  2:"\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  3:"%2Fhome%2Fgsmteams%2Fdomains%2Favin-tarh.ir%2Fpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  4:"\home\gsmteams\domains\avin-tarh.ir\public_html" => "C:/wamp64/www/avin"
+	SEARCH  5:"\\home\\gsmteams\\domains\\avin-tarh.ir\\public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  6:"%5Chome%5Cgsmteams%5Cdomains%5Cavin-tarh.ir%5Cpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  7:"//avin-tarh.ir" ==================================> "//localhost/avin"
+	SEARCH  8:"\/\/avin-tarh.ir" ================================> "\/\/localhost\/avin"
+	SEARCH  9:"%2F%2Favin-tarh.ir" ==============================> "%2F%2Flocalhost%2Favin"
+	SEARCH 10:"//www.avin-tarh.ir" ==============================> "//localhost/avin"
+	SEARCH 11:"\/\/www.avin-tarh.ir" ============================> "\/\/localhost\/avin"
+	SEARCH 12:"%2F%2Fwww.avin-tarh.ir" ==========================> "%2F%2Flocalhost%2Favin"
+	SEARCH 13:"https://localhost/avin" ==========================> "http://localhost/avin"
+	SEARCH 14:"https:\/\/localhost\/avin" =======================> "http:\/\/localhost\/avin"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Favin" ==================> "http%3A%2F%2Flocalhost%2Favin"
+
+EVALUATE TABLE: "avn_posts"_______________________________________[ROWS:    87][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/gsmteams/domains/avin-tarh.ir/public_html" => "C:/wamp64/www/avin"
+	SEARCH  2:"\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  3:"%2Fhome%2Fgsmteams%2Fdomains%2Favin-tarh.ir%2Fpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  4:"\home\gsmteams\domains\avin-tarh.ir\public_html" => "C:/wamp64/www/avin"
+	SEARCH  5:"\\home\\gsmteams\\domains\\avin-tarh.ir\\public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  6:"%5Chome%5Cgsmteams%5Cdomains%5Cavin-tarh.ir%5Cpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  7:"//avin-tarh.ir" ==================================> "//localhost/avin"
+	SEARCH  8:"\/\/avin-tarh.ir" ================================> "\/\/localhost\/avin"
+	SEARCH  9:"%2F%2Favin-tarh.ir" ==============================> "%2F%2Flocalhost%2Favin"
+	SEARCH 10:"//www.avin-tarh.ir" ==============================> "//localhost/avin"
+	SEARCH 11:"\/\/www.avin-tarh.ir" ============================> "\/\/localhost\/avin"
+	SEARCH 12:"%2F%2Fwww.avin-tarh.ir" ==========================> "%2F%2Flocalhost%2Favin"
+	SEARCH 13:"https://localhost/avin" ==========================> "http://localhost/avin"
+	SEARCH 14:"https:\/\/localhost\/avin" =======================> "http:\/\/localhost\/avin"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Favin" ==================> "http%3A%2F%2Flocalhost%2Favin"
+
+EVALUATE TABLE: "avn_term_relationships"__________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/gsmteams/domains/avin-tarh.ir/public_html" => "C:/wamp64/www/avin"
+	SEARCH  2:"\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  3:"%2Fhome%2Fgsmteams%2Fdomains%2Favin-tarh.ir%2Fpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  4:"\home\gsmteams\domains\avin-tarh.ir\public_html" => "C:/wamp64/www/avin"
+	SEARCH  5:"\\home\\gsmteams\\domains\\avin-tarh.ir\\public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  6:"%5Chome%5Cgsmteams%5Cdomains%5Cavin-tarh.ir%5Cpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  7:"//avin-tarh.ir" ==================================> "//localhost/avin"
+	SEARCH  8:"\/\/avin-tarh.ir" ================================> "\/\/localhost\/avin"
+	SEARCH  9:"%2F%2Favin-tarh.ir" ==============================> "%2F%2Flocalhost%2Favin"
+	SEARCH 10:"//www.avin-tarh.ir" ==============================> "//localhost/avin"
+	SEARCH 11:"\/\/www.avin-tarh.ir" ============================> "\/\/localhost\/avin"
+	SEARCH 12:"%2F%2Fwww.avin-tarh.ir" ==========================> "%2F%2Flocalhost%2Favin"
+	SEARCH 13:"https://localhost/avin" ==========================> "http://localhost/avin"
+	SEARCH 14:"https:\/\/localhost\/avin" =======================> "http:\/\/localhost\/avin"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Favin" ==================> "http%3A%2F%2Flocalhost%2Favin"
+
+EVALUATE TABLE: "avn_term_taxonomy"_______________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/gsmteams/domains/avin-tarh.ir/public_html" => "C:/wamp64/www/avin"
+	SEARCH  2:"\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  3:"%2Fhome%2Fgsmteams%2Fdomains%2Favin-tarh.ir%2Fpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  4:"\home\gsmteams\domains\avin-tarh.ir\public_html" => "C:/wamp64/www/avin"
+	SEARCH  5:"\\home\\gsmteams\\domains\\avin-tarh.ir\\public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  6:"%5Chome%5Cgsmteams%5Cdomains%5Cavin-tarh.ir%5Cpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  7:"//avin-tarh.ir" ==================================> "//localhost/avin"
+	SEARCH  8:"\/\/avin-tarh.ir" ================================> "\/\/localhost\/avin"
+	SEARCH  9:"%2F%2Favin-tarh.ir" ==============================> "%2F%2Flocalhost%2Favin"
+	SEARCH 10:"//www.avin-tarh.ir" ==============================> "//localhost/avin"
+	SEARCH 11:"\/\/www.avin-tarh.ir" ============================> "\/\/localhost\/avin"
+	SEARCH 12:"%2F%2Fwww.avin-tarh.ir" ==========================> "%2F%2Flocalhost%2Favin"
+	SEARCH 13:"https://localhost/avin" ==========================> "http://localhost/avin"
+	SEARCH 14:"https:\/\/localhost\/avin" =======================> "http:\/\/localhost\/avin"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Favin" ==================> "http%3A%2F%2Flocalhost%2Favin"
+
+EVALUATE TABLE: "avn_termmeta"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avn_terms"_______________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/gsmteams/domains/avin-tarh.ir/public_html" => "C:/wamp64/www/avin"
+	SEARCH  2:"\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  3:"%2Fhome%2Fgsmteams%2Fdomains%2Favin-tarh.ir%2Fpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  4:"\home\gsmteams\domains\avin-tarh.ir\public_html" => "C:/wamp64/www/avin"
+	SEARCH  5:"\\home\\gsmteams\\domains\\avin-tarh.ir\\public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  6:"%5Chome%5Cgsmteams%5Cdomains%5Cavin-tarh.ir%5Cpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  7:"//avin-tarh.ir" ==================================> "//localhost/avin"
+	SEARCH  8:"\/\/avin-tarh.ir" ================================> "\/\/localhost\/avin"
+	SEARCH  9:"%2F%2Favin-tarh.ir" ==============================> "%2F%2Flocalhost%2Favin"
+	SEARCH 10:"//www.avin-tarh.ir" ==============================> "//localhost/avin"
+	SEARCH 11:"\/\/www.avin-tarh.ir" ============================> "\/\/localhost\/avin"
+	SEARCH 12:"%2F%2Fwww.avin-tarh.ir" ==========================> "%2F%2Flocalhost%2Favin"
+	SEARCH 13:"https://localhost/avin" ==========================> "http://localhost/avin"
+	SEARCH 14:"https:\/\/localhost\/avin" =======================> "http:\/\/localhost\/avin"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Favin" ==================> "http%3A%2F%2Flocalhost%2Favin"
+
+EVALUATE TABLE: "avn_usermeta"____________________________________[ROWS:    72][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/gsmteams/domains/avin-tarh.ir/public_html" => "C:/wamp64/www/avin"
+	SEARCH  2:"\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  3:"%2Fhome%2Fgsmteams%2Fdomains%2Favin-tarh.ir%2Fpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  4:"\home\gsmteams\domains\avin-tarh.ir\public_html" => "C:/wamp64/www/avin"
+	SEARCH  5:"\\home\\gsmteams\\domains\\avin-tarh.ir\\public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  6:"%5Chome%5Cgsmteams%5Cdomains%5Cavin-tarh.ir%5Cpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  7:"//avin-tarh.ir" ==================================> "//localhost/avin"
+	SEARCH  8:"\/\/avin-tarh.ir" ================================> "\/\/localhost\/avin"
+	SEARCH  9:"%2F%2Favin-tarh.ir" ==============================> "%2F%2Flocalhost%2Favin"
+	SEARCH 10:"//www.avin-tarh.ir" ==============================> "//localhost/avin"
+	SEARCH 11:"\/\/www.avin-tarh.ir" ============================> "\/\/localhost\/avin"
+	SEARCH 12:"%2F%2Fwww.avin-tarh.ir" ==========================> "%2F%2Flocalhost%2Favin"
+	SEARCH 13:"https://localhost/avin" ==========================> "http://localhost/avin"
+	SEARCH 14:"https:\/\/localhost\/avin" =======================> "http:\/\/localhost\/avin"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Favin" ==================> "http%3A%2F%2Flocalhost%2Favin"
+
+EVALUATE TABLE: "avn_users"_______________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/gsmteams/domains/avin-tarh.ir/public_html" => "C:/wamp64/www/avin"
+	SEARCH  2:"\/home\/gsmteams\/domains\/avin-tarh.ir\/public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  3:"%2Fhome%2Fgsmteams%2Fdomains%2Favin-tarh.ir%2Fpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  4:"\home\gsmteams\domains\avin-tarh.ir\public_html" => "C:/wamp64/www/avin"
+	SEARCH  5:"\\home\\gsmteams\\domains\\avin-tarh.ir\\public_html" => "C:\/wamp64\/www\/avin"
+	SEARCH  6:"%5Chome%5Cgsmteams%5Cdomains%5Cavin-tarh.ir%5Cpublic_html" => "C%3A%2Fwamp64%2Fwww%2Favin"
+	SEARCH  7:"//avin-tarh.ir" ==================================> "//localhost/avin"
+	SEARCH  8:"\/\/avin-tarh.ir" ================================> "\/\/localhost\/avin"
+	SEARCH  9:"%2F%2Favin-tarh.ir" ==============================> "%2F%2Flocalhost%2Favin"
+	SEARCH 10:"//www.avin-tarh.ir" ==============================> "//localhost/avin"
+	SEARCH 11:"\/\/www.avin-tarh.ir" ============================> "\/\/localhost\/avin"
+	SEARCH 12:"%2F%2Fwww.avin-tarh.ir" ==========================> "%2F%2Flocalhost%2Favin"
+	SEARCH 13:"https://localhost/avin" ==========================> "http://localhost/avin"
+	SEARCH 14:"https:\/\/localhost\/avin" =======================> "http:\/\/localhost\/avin"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Favin" ==================> "http%3A%2F%2Flocalhost%2Favin"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:560 	|	 Cells:3998 
+UPDATED:	Tables:2 	|	 Rows:91 	|	 Cells:96 
+ERRORS:		0 
+RUNTIME:	0.260100 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""avin""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+deactivate js_composer/js_composer.php
+Plugin(s) listed here are deactivated: js_composer/js_composer.php
+Plugin(s) reactivated after installation: js_composer/js_composer.php
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+[PHP ERR][WARN] MSG:file_get_contents(C:/wamp64/www/avin/dup-installer/dup-orig-htaccess__[HASH].txt): failed to open stream: No such file or directory [CODE:2|FILE:C:\wamp64\www\avin\dup-installer\classes\class.s3.func.php|LINE:1236]
+
+STEP-3 COMPLETE @ 12:28:29 - RUNTIME: 0.4387 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  WPBakery Page Builder
+	SECTIONS: general
+	LONG MSG: This plugin is deactivated automatically, because it requires a reacivation to work properly.  <b>Please reactivate from the WordPress admin panel after logging in.</b> This will re-enable your site's frontend.
+
+====================================

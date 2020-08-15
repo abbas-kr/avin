@@ -1,0 +1,41 @@
+.#{$prefix}-home-widget-section{
+    padding-bottom: 45px;
+    @include border-top();
+    border-color: $color_light_gray;
+ 
+    section{
+        margin-top: 45px;
+        margin-bottom: 0;
+    }
+    .default_mag_fullwidth_post_widget_style_1,
+    .default_mag_fullwidth_post_widget_style_2{
+        padding: 0;
+        box-shadow: none;
+        .#{$prefix}-full-post,
+        .#{$prefix}-widget-post-list-section,
+        .#{$prefix}-feature-post-list,
+        .#{$prefix}-ad-image-section{
+            margin-top: 30px;
+        }
+    }
+    .default_mag_fullwidth_post_widget_style_2{
+        .#{$prefix}-post-with-categories-list{
+            margin-top: 30px;
+        }   
+        .#{$prefix}-ad-image-section{
+            text-align: center;
+            a{
+                display: block;
+                @include media(xs){
+                    width: 50%;
+                    margin: 0 auto;
+                }
+                @include media(lg){
+                    width: 100%;
+                }
+
+            }
+        }
+    }
+    
+}

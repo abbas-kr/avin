@@ -1,0 +1,18 @@
+.#{$prefix}-single-related-post{
+    .#{$prefix}-wrapper{
+        @include border-left();
+        @include border-right();
+        @include border-bottom();
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 10px;
+        border-color: $color_light_gray;
+    }
+    h3{
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+    .#{$prefix}-image-section{
+        position: relative;
+    }
+}
